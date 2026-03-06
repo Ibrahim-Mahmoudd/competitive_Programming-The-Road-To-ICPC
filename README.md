@@ -126,42 +126,67 @@ competitive_Programming-The-Road-To-ICPC/
 
 ## 🗺️ Roadmap
 
-The journey follows a structured path — starting with **Assiut University's CP Sheet**, then moving to advanced books.
+The journey follows the **Assiut University ICPC Training** curriculum across 3 levels, then dives into advanced CP books.
 
 ---
 
-### Phase 1 — C++ (Assiut Sheet)
-Fundamentals of C++ and problem-solving through the Assiut CP sheet.
+### 🟢 Phase 1 — Newcomers (C++ Basics)
 
-- Basic I/O & Data Types
-- Conditions & Loops
-- Functions & Recursion
-- Arrays & Strings
-- STL (vectors, sets, maps, ...)
-- Sorting & Searching
-- Greedy Algorithms
-- Math & Number Theory
+> *Assiut Newcomers Sheet — 10 Weeks*
 
----
-
-### Phase 2 — Data Structures (Assiut Sheet)
-Core data structures covered in the Assiut sheet.
-
-- Stacks & Queues
-- Linked Lists
-- Trees & Binary Search Trees
-- Heaps & Priority Queues
-- Segment Trees
-- Fenwick Tree (BIT)
-- Disjoint Set Union (DSU)
-- Graphs (BFS / DFS)
-- Shortest Paths (Dijkstra, Bellman-Ford)
+| # | Topic |
+|---|-------|
+| Week 1 | Data Types & Conditions |
+| Week 2 | Loops |
+| Week 3 | Arrays (1D, 2D, Char) · Sorting · Binary Search · Prefix Sum |
+| Week 4 | Strings |
+| Week 5 | Functions |
+| Week 6 | Math & Geometry |
+| Week 7 | Recursion |
+| Week 8 | General Easy |
+| Week 9 | Structures · General Medium |
+| Week 10 | General Hard |
 
 ---
 
-### Phase 3 — Books
+### 🟡 Phase 2 — Juniors 1 (Intermediate)
 
-After finishing the Assiut sheet, the journey continues with these books:
+> *Assiut Juniors 1 Sheet — 6 Weeks*
+
+| # | Topic |
+|---|-------|
+| Week 1 | Complexity Analysis |
+| Week 2 | STL (String, Stack, Queue, Deque, Priority Queue) |
+| Week 3 | STL (Set, Map) · Merge Sort · Quick Sort |
+| Week 4 | Binary Search · Two Pointers · Greedy |
+| Week 5 | Bit Manipulation · Bitmask |
+| Week 6 | Number Theory (Primes, GCD, LCM, Modular Arithmetic, Factorization) |
+
+---
+
+### 🟠 Phase 3 — Juniors 2 (Advanced)
+
+> *Assiut Juniors 2 Sheet — 12 Weeks*
+
+| # | Topic |
+|---|-------|
+| Week 1 | Recursion Advanced · Backtracking |
+| Week 2 | Dynamic Programming — Basics & 0/1 Knapsack |
+| Week 3–4 | Graph Representation · BFS · DFS · Trees · Topological Sort |
+| Week 5 | Graph — SCC · Articulation Points · Bridges |
+| Week 6 | Shortest Paths — Dijkstra · Floyd · BFS variants |
+| Week 7 | *(contest week)* |
+| Week 8 | DP — Consecutive · Nested · General Ranges |
+| Week 9 | DP — Counting · Building Output |
+| Week 10 | DP — Digit DP · Bitmask DP |
+| Week 11 | *(contest week)* |
+| Week 12 | Segment Tree · Sparse Table · Monotonic Queue |
+
+---
+
+### 📚 Phase 4 — Books
+
+After finishing all Assiut sheets, the journey continues with these books:
 
 | Book | Author |
 |------|--------|
