@@ -1,0 +1,31 @@
+{
+  "ref": {
+    "judge": "codeforces",
+    "scope": "contest",
+    "contestRef": "705",
+    "index": "A"
+  },
+  "problem": {
+    "contestId": 705,
+    "index": "A",
+    "name": "Hulk",
+    "kind": "contest"
+  },
+  "name": "Hulk",
+  "url": "https://codeforces.com/contest/705/problem/A",
+  "samples": [
+    {
+      "input": "1",
+      "output": "I hate it"
+    },
+    {
+      "input": "2",
+      "output": "I hate that I love it"
+    },
+    {
+      "input": "3",
+      "output": "I hate that I love that I hate it"
+    }
+  ],
+  "createdAt": 1791036996226
+}

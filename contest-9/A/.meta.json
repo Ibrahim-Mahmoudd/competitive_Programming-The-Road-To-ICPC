@@ -1,0 +1,28 @@
+{
+  "ref": {
+    "judge": "codeforces",
+    "scope": "contest",
+    "contestRef": "9",
+    "index": "A"
+  },
+  "problem": {
+    "contestId": 9,
+    "index": "A",
+    "name": "Die Roll",
+    "kind": "contest",
+    "rating": 800,
+    "tags": [
+      "math",
+      "probabilities"
+    ]
+  },
+  "name": "Die Roll",
+  "url": "https://codeforces.com/contest/9/problem/A",
+  "samples": [
+    {
+      "input": "4 2",
+      "output": "1/2"
+    }
+  ],
+  "createdAt": 1791215505125
+}

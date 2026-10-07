@@ -1,0 +1,27 @@
+n ==> num of children 
+all children >> are gifted 
+good at programming  >> t=1
+good at math     >> t=2
+good at PE >>  t=3
+
+* each child >> good at exactly one of these 
+
+  Olympias 
+------------
+team =  3
+mathematician (t=1) , 
+programmer (t=2) , 
+sportsman (t=3)
+
+==================
+what is the maximum number of teams ????
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+output : 
+w ==> the number of teams
+w > lines 
+the formation of the team in the order of their appearance in the input
+
+
+
+---------------

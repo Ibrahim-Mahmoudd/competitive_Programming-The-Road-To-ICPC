@@ -1,0 +1,24 @@
+{
+  "at": 1791132330672,
+  "source": "#include<bits/stdc++.h>\r\nusing namespace std;\r\nint main ()\r\n{\r\n    int t , n;\r\n    cin>>t>>n;\r\n    int num_distressed = 0;\r\n    int current = n ; \r\n    for (int i = 0; i < t; i++)\r\n    {\r\n        char c;\r\n        int x;\r\n        cin>>c>>x;\r\n        if (c == '+')\r\n        {\r\n            current += x;\r\n        }\r\n        else\r\n        {\r\n            if (current >= x)\r\n            {\r\n                current -= x;\r\n            }\r\n            else\r\n            {\r\n                num_distressed++;\r\n            }\r\n        }\r\n        cout<<current<<\" \"<<num_distressed<<endl;\r\n    }\r\n     \r\n\r\n}",
+  "language": ".cpp",
+  "compileOk": true,
+  "tests": [
+    {
+      "label": "Sample 1",
+      "outcome": "wrong answer",
+      "ms": 537,
+      "expected": "22 1",
+      "actual": "12 0\r\n2 0\r\n2 1\r\n42 1\r\n22 1\r\n",
+      "stderr": ""
+    },
+    {
+      "label": "Sample 2",
+      "outcome": "wrong answer",
+      "ms": 55,
+      "expected": "3 2",
+      "actual": "1 0\r\n1 1\r\n1 2\r\n101 2\r\n3 2\r\n",
+      "stderr": ""
+    }
+  ]
+}

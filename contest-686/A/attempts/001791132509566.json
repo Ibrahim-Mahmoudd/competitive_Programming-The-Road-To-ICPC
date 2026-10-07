@@ -1,0 +1,9 @@
+{
+  "at": 1791132509566,
+  "verdict": "Accepted",
+  "language": "GNU G++17 7.3.0",
+  "source": "#include<bits/stdc++.h>\r\nusing namespace std;\r\nint main ()\r\n{\r\n    \r\n    long long t , n;\r\n    cin>>t>>n;\r\n    long long num_distressed = 0;\r\n    long long current = n ; \r\n    for (long long i = 0; i < t; i++)\r\n    {\r\n        char c;\r\n        long long x;\r\n        cin>>c>>x;\r\n        if (c == '+')\r\n        {\r\n            current += x;\r\n        }\r\n        else\r\n        {\r\n            if (current >= x)\r\n            {\r\n                current -= x;\r\n            }\r\n            else\r\n            {\r\n                num_distressed++;\r\n            }\r\n        }\r\n        \r\n    }\r\n    cout<<current<<\" \"<<num_distressed<<endl;\r\n     \r\n\r\n}",
+  "submissionId": "393208502",
+  "timeMs": "46 ms",
+  "memoryKb": "0 KB"
+}

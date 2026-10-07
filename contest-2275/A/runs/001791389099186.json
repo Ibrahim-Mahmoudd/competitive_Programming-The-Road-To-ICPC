@@ -1,0 +1,16 @@
+{
+  "at": 1791389099186,
+  "source": "/*\r\nk1o0n got a router >>> placed it at (X0,Y0)\r\napartment layout ==> coordinate plane \r\nfloor is tiled \r\nfurniture  ==> integer coordinates \r\n\r\ninternet  spread > R meters around the router\r\nk1o0n > put his computer as far as possible from the router but still within the internet range\r\n\r\nexample:\r\nR=5  >> can place computer at (X0+5,Y0) or (X0-5,Y0) or (X0,Y0+5) or (X0,Y0-5)\r\n\r\nfind any point (X,Y) such that:\r\n    distance between (X,Y) and (X0,Y0) <= R\r\n\r\ninput :\r\nFL : t \r\neach test case contains 3 integers X0,Y0,R\r\n\r\noutput :\r\nfor each test case print 2 integers X,Y such that:\r\n    distance between (X,Y) and (X0,Y0) <= R\r\n\r\n\r\n\r\n*/\r\n#include <bits/stdc++.h>\r\nusing namespace std;\r\nint main ()\r\n{\r\n\r\n    int t ;\r\n    cin>> t;\r\n    for(int i =0 ;i<t ;i++)\r\n    {\r\n        \r\n        int x0,y0,r;\r\n        cin>>x0>>y0>>r;\r\n        cout<<x0+r<<\" \"<<y0<<endl;\r\n    }\r\n\r\n\r\n\r\n}",
+  "language": ".cpp",
+  "compileOk": true,
+  "tests": [
+    {
+      "label": "Sample 1",
+      "outcome": "wrong answer",
+      "ms": 920,
+      "expected": "0 1\n2 1\n-2 5",
+      "actual": "1 0\r\n10 5\r\n23 10\r\n",
+      "stderr": ""
+    }
+  ]
+}

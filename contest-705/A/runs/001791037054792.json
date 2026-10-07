@@ -1,0 +1,32 @@
+{
+  "at": 1791037054792,
+  "source": "#include <bits/stdc++.h>\r\nusing namespace std;\r\n\r\nint main() {\r\n    int n;\r\n    cin >> n;\r\n\r\n    for (int i = 1; i <= n; i++) {\r\n        if (i%2!= 0)\r\n            cout << \"I hate \";\r\n        else\r\n            cout << \"I love \";\r\n\r\n        if (i==n)\r\n            cout << \"it\";\r\n        else\r\n            cout << \"that \";\r\n    }\r\n\r\n    return 0;\r\n}",
+  "language": ".cpp",
+  "compileOk": true,
+  "tests": [
+    {
+      "label": "Sample 1",
+      "outcome": "runtime error",
+      "ms": 57,
+      "expected": "I hate it",
+      "actual": "",
+      "stderr": "The process cannot access the file because it is being used by another process.\r\n"
+    },
+    {
+      "label": "Sample 2",
+      "outcome": "runtime error",
+      "ms": 44,
+      "expected": "I hate that I love it",
+      "actual": "",
+      "stderr": "The process cannot access the file because it is being used by another process.\r\n"
+    },
+    {
+      "label": "Sample 3",
+      "outcome": "runtime error",
+      "ms": 41,
+      "expected": "I hate that I love that I hate it",
+      "actual": "",
+      "stderr": "The process cannot access the file because it is being used by another process.\r\n"
+    }
+  ]
+}

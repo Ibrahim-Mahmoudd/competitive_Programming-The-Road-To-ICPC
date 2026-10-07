@@ -1,0 +1,27 @@
+{
+  "ref": {
+    "judge": "codeforces",
+    "scope": "contest",
+    "contestRef": "490",
+    "index": "A"
+  },
+  "problem": {
+    "contestId": 490,
+    "index": "A",
+    "name": "Team Olympiad",
+    "kind": "contest"
+  },
+  "name": "Team Olympiad",
+  "url": "https://codeforces.com/contest/490/problem/A",
+  "samples": [
+    {
+      "input": "7\n1 3 1 3 2 1 2",
+      "output": "2\n3 5 2\n6 7 4"
+    },
+    {
+      "input": "4\n2 1 1 2",
+      "output": "0"
+    }
+  ],
+  "createdAt": 1791215695803
+}

@@ -1,0 +1,10 @@
+{
+  "at": 1791132369797,
+  "verdict": "Wrong answer on test 3",
+  "failingTest": 3,
+  "language": "GNU G++17 7.3.0",
+  "source": "#include<bits/stdc++.h>\r\nusing namespace std;\r\nint main ()\r\n{\r\n    int t , n;\r\n    cin>>t>>n;\r\n    int num_distressed = 0;\r\n    int current = n ; \r\n    for (int i = 0; i < t; i++)\r\n    {\r\n        char c;\r\n        int x;\r\n        cin>>c>>x;\r\n        if (c == '+')\r\n        {\r\n            current += x;\r\n        }\r\n        else\r\n        {\r\n            if (current >= x)\r\n            {\r\n                current -= x;\r\n            }\r\n            else\r\n            {\r\n                num_distressed++;\r\n            }\r\n        }\r\n        \r\n    }\r\n    cout<<current<<\" \"<<num_distressed<<endl;\r\n     \r\n\r\n}",
+  "submissionId": "393208270",
+  "timeMs": "31 ms",
+  "memoryKb": "0 KB"
+}

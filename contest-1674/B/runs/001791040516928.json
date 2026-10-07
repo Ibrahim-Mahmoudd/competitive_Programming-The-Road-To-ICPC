@@ -1,0 +1,16 @@
+{
+  "at": 1791040516928,
+  "source": "#include<bits/stdc++.h>\r\nusing namespace std;\r\nint main ()\r\n{\r\n    int t ;\r\n    cin >> t ;\r\n    string s ;\r\n    cin >> s ;\r\n\r\n    //ab =1,ac=2 .....\r\n    //ba=26 , bc=27 , .........\r\n\r\n    //the idea is to find the position of the first character and the second character in the string and then calculate the distance between them in terms of their positions in the alphabet.\r\n    // in coding terms, we can use the ASCII values of the characters to find their positions in the alphabet. The position of a character 'c' can be found using the formula: position = c - 'a' + 1 for lowercase letters.\r\n\r\n\r\n    int ans = 0 ;\r\n    for (int i = 0 ; i < t-1 ; i++)\r\n    {\r\n        ans += abs(s[i+1] - s[i]) ;\r\n        cout << ans << endl ;\r\n    }\r\n    \r\n}",
+  "language": ".cpp",
+  "compileOk": true,
+  "tests": [
+    {
+      "label": "Sample 1",
+      "outcome": "wrong answer",
+      "ms": 107,
+      "expected": "1\n2\n25\n26\n27\n649\n650",
+      "actual": "1\r\n99\r\n218\r\n406\r\n543\r\n569\r\n",
+      "stderr": ""
+    }
+  ]
+}

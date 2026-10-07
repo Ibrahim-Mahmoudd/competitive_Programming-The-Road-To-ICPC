@@ -1,0 +1,23 @@
+{
+  "ref": {
+    "judge": "codeforces",
+    "scope": "contest",
+    "contestRef": "2275",
+    "index": "B"
+  },
+  "problem": {
+    "contestId": 2275,
+    "index": "B",
+    "name": "Did Not Go to Print",
+    "kind": "contest"
+  },
+  "name": "Did Not Go to Print",
+  "url": "https://codeforces.com/contest/2275/problem/B",
+  "samples": [
+    {
+      "input": "6\n2\n12\n2\n13\n2\n23\n6\n112332\n3\n112\n6\n211213",
+      "output": "1\n2 \n1\n1 \n0\n\n2\n3 6 \n2\n1 3 \n3\n2 4 5"
+    }
+  ],
+  "createdAt": 1791389350411
+}

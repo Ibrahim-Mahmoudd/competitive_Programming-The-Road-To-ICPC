@@ -1,0 +1,23 @@
+{
+  "ref": {
+    "judge": "codeforces",
+    "scope": "contest",
+    "contestRef": "2275",
+    "index": "A"
+  },
+  "problem": {
+    "contestId": 2275,
+    "index": "A",
+    "name": "In Search of Convenience",
+    "kind": "contest"
+  },
+  "name": "In Search of Convenience",
+  "url": "https://codeforces.com/contest/2275/problem/A",
+  "samples": [
+    {
+      "input": "3\n0 0 1\n5 5 5\n10 10 13",
+      "output": "0 1\n2 1\n-2 5"
+    }
+  ],
+  "createdAt": 1791388345343
+}

@@ -1,0 +1,26 @@
+{
+  "at": 1791224461148,
+  "source": "#include<bits/stdc++.h>\r\nusing namespace std;\r\nint main ()\r\n{\r\n    int n ;\r\n    cin>>n;\r\n    vector<int> m ,p , s;\r\n    for (int i = 1; i <= n; i++)\r\n    {\r\n        int t ;\r\n        cin>> t ;\r\n        if(t==1) m.push_back(i);\r\n        else if(t==2) p.push_back(i);\r\n        else s.push_back(i);\r\n\r\n                \r\n    }\r\n    int w = min ({m.size(), p.size(), s.size()});\r\n    \r\n    if(w==0)\r\n    {\r\n        cout<<0<<endl;\r\n        return 0;\r\n    }\r\n    cout<<w<<endl;\r\n    for (int i = 0; i < w; i++)\r\n    {\r\n        cout<<m[i]<<\" \"<<p[i]<<\" \"<<s[i]<<endl;\r\n    }\r\n\r\n\r\n    \r\n\r\n\r\n}",
+  "language": ".cpp",
+  "compileOk": true,
+  "tests": [
+    {
+      "label": "Sample 1",
+      "outcome": "wrong answer",
+      "ms": 627,
+      "expected": "2\n3 5 2\n6 7 4",
+      "actual": "2\r\n1 5 2\r\n3 7 4\r\n",
+      "stderr": ""
+    },
+    {
+      "label": "Sample 2",
+      "outcome": "passed",
+      "ms": 60,
+      "expected": "0",
+      "actual": "0\r\n",
+      "stderr": ""
+    }
+  ],
+  "count": 2,
+  "lastAt": 1791224461168
+}

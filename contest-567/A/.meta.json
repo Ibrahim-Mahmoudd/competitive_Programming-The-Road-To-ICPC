@@ -1,0 +1,27 @@
+{
+  "ref": {
+    "judge": "codeforces",
+    "scope": "contest",
+    "contestRef": "567",
+    "index": "A"
+  },
+  "problem": {
+    "contestId": 567,
+    "index": "A",
+    "name": "Lineland Mail",
+    "kind": "contest"
+  },
+  "name": "Lineland Mail",
+  "url": "https://codeforces.com/contest/567/problem/A",
+  "samples": [
+    {
+      "input": "4\n-5 -2 2 7",
+      "output": "3 12\n3 9\n4 7\n5 12"
+    },
+    {
+      "input": "2\n-1 1",
+      "output": "2 2\n2 2"
+    }
+  ],
+  "createdAt": 1791272713674
+}

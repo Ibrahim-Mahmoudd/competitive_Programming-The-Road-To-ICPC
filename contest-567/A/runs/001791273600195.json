@@ -1,0 +1,24 @@
+{
+  "at": 1791273600195,
+  "source": "/*\r\nall cities are  located on Ox coordinate axis .\r\nno two cities are located at single point.\r\nresidents love to send letters to each other \r\nperson can send only letterss to person in other cities , (not same city)\r\n\r\nthe cost of sending = the distance between cities \r\n\r\nfor each city calculate min , max cost of sending letters to other cities\r\n\r\nInput \r\n------\r\nn (2 ≤ n ≤ 105) \r\nthe location of cities on Ox coordinate axis (−10^9 ≤ xi ≤ 10^9)\r\n\r\nOutput :\r\n--------\r\nfor each city print two integers : the minimum and maximum cost of sending letters to other cities\r\n\r\n\r\n*/\r\n\r\n#include<bits/stdc++.h>\r\nusing namespace std;\r\nint main ()\r\n{\r\n    int n ;\r\n    cin>> n ;\r\n    vector<long long> v(n);\r\n    pair<long long,long long> ans[n];\r\n    for(int i=0;i<n;i++)\r\n    {\r\n        cin>>v[i];\r\n    }\r\n    \r\n    for(int i=0;i<n;i++)\r\n    {\r\n        ans[i].first =min( v[i] -v[i-1] , v[i+1] - v[i]);\r\n        ans[i].second = max( v[i] -v[0] , v[n-1] - v[i]);\r\n    }\r\n    for(int i=0;i<n;i++)\r\n    {\r\n        cout<<ans[i].first<<\" \"<<ans[i].second<<endl;\r\n    }\r\n    return 0;\r\n}",
+  "language": ".cpp",
+  "compileOk": true,
+  "tests": [
+    {
+      "label": "Sample 1",
+      "outcome": "timed out",
+      "ms": 10068,
+      "expected": "3 12\n3 9\n4 7\n5 12",
+      "actual": "",
+      "stderr": ""
+    },
+    {
+      "label": "Sample 2",
+      "outcome": "wrong answer",
+      "ms": 58,
+      "expected": "2 2\n2 2",
+      "actual": "-1153112899243755204 2\r\n2 2\r\n",
+      "stderr": ""
+    }
+  ]
+}

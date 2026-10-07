@@ -1,0 +1,28 @@
+{
+  "ref": {
+    "judge": "codeforces",
+    "scope": "contest",
+    "contestRef": "2269",
+    "index": "A"
+  },
+  "problem": {
+    "contestId": 2269,
+    "index": "A",
+    "name": "SauSaGe Bank",
+    "kind": "contest",
+    "rating": 800,
+    "tags": [
+      "greedy",
+      "math"
+    ]
+  },
+  "name": "SauSaGe Bank",
+  "url": "https://codeforces.com/contest/2269/problem/A",
+  "samples": [
+    {
+      "input": "5\n1 1\n2 1\n4 3\n5 5\n10 2",
+      "output": "2\n4\n8\n10\n514"
+    }
+  ],
+  "createdAt": 1791040998254
+}
